@@ -1,0 +1,643 @@
+<!doctype html><html lang=en-us>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=generator content="Wowchemy 5.3.0 for Hugo">
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media=print onload="this.media='all'">
+<meta name=author content="Pietro Borrello">
+<meta name=description content="Ph.D. Student in Systems Security">
+<link rel=alternate hreflang=en-us href=https://pietroborrello.github.io/>
+<meta name=theme-color content="rgb(0, 136, 204)">
+<link rel=stylesheet href=/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css media=print onload="this.media='all'">
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin=anonymous media=print onload="this.media='all'">
+<link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css crossorigin=anonymous title=hl-light media=print onload="this.media='all'" disabled>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css crossorigin=anonymous title=hl-dark media=print onload="this.media='all'">
+<link rel=stylesheet href=/css/wowchemy.fffb4117e354b1f0a10ae0f356beef91.css>
+<script src=https://identity.netlify.com/v1/netlify-identity-widget.js></script>
+<link rel=alternate href=/index.xml type=application/rss+xml title="Pietro Borrello">
+<link rel=manifest href=/manifest.webmanifest>
+<link rel=icon type=image/png href=/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png>
+<link rel=apple-touch-icon type=image/png href=/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png>
+<link rel=canonical href=https://pietroborrello.github.io/>
+<meta property="twitter:card" content="summary">
+<meta property="og:site_name" content="Pietro Borrello">
+<meta property="og:url" content="https://pietroborrello.github.io/">
+<meta property="og:title" content="Pietro Borrello">
+<meta property="og:description" content="Ph.D. Student in Systems Security"><meta property="og:image" content="https://pietroborrello.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png">
+<meta property="twitter:image" content="https://pietroborrello.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
+<meta property="og:updated_time" content="2021-12-10T12:00:00+00:00">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"WebSite","potentialAction":{"@type":"SearchAction","target":"https://pietroborrello.github.io/?q={search_term_string}","query-input":"required name=search_term_string"},"url":"https://pietroborrello.github.io/"}</script>
+<title>Pietro Borrello</title>
+</head>
+<body id=top data-spy=scroll data-offset=70 data-target=#navbar-main class="page-wrapper dark">
+<script src=/js/wowchemy-init.min.7a32c4644e301688b5ef47ea5ccbdaf7.js></script>
+<aside class=search-modal id=search>
+<div class=container>
+<section class=search-header>
+<div class="row no-gutters justify-content-between mb-3">
+<div class=col-6>
+<h1>Search</h1>
+</div>
+<div class="col-6 col-search-close">
+<a class=js-search href=# aria-label=Close><i class="fas fa-times-circle text-muted" aria-hidden=true></i></a>
+</div>
+</div>
+<div id=search-box>
+<input name=q id=search-query placeholder=Search... autocapitalize=off autocomplete=off autocorrect=off spellcheck=false type=search class=form-control aria-label=Search...>
+</div>
+</section>
+<section class=section-search-results>
+<div id=search-hits>
+</div>
+</section>
+</div>
+</aside>
+<div class=page-header>
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main>
+<div class=container-xl>
+<div class="d-none d-lg-inline-flex">
+<a class=navbar-brand href=/>Pietro Borrello</a>
+</div>
+<button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar-content aria-expanded=false aria-label="Toggle navigation">
+<span><i class="fas fa-bars"></i></span>
+</button>
+<div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+<a class=navbar-brand href=/>Pietro Borrello</a>
+</div>
+<div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content>
+<ul class="navbar-nav d-md-inline-flex">
+<li class=nav-item>
+<a class=nav-link href=/#about data-target=#about><span>Home</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/#projects data-target=#projects><span>Projects</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/#talks data-target=#talks><span>Talks</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/#publications data-target=#publications><span>Publications</span></a>
+</li>
+</ul>
+</div>
+<ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+<li class=nav-item>
+<a class="nav-link js-search" href=# aria-label=Search><i class="fas fa-search" aria-hidden=true></i></a>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+<div class=page-body>
+<span class="js-widget-page d-none"></span>
+<section id=about class="home-section wg-about">
+<div class=home-section-bg>
+</div>
+<div class=container>
+<div class=row>
+<div class="col-12 col-lg-4">
+<div id=profile>
+<img class="avatar avatar-circle" width=270 height=270 src=/authors/admin/avatar_hu2ce8d94387458ae84c8254a7e7836386_199794_270x270_fill_q75_lanczos_center.jpg alt="Pietro Borrello">
+<div class=portrait-title>
+<h2>Pietro Borrello</h2>
+<h3>Ph.D. Student in Systems Security</h3>
+<h3>
+<a href=https://www.uniroma1.it/en target=_blank rel=noopener>
+<span>Sapienza University of Rome</span>
+</a>
+</h3>
+</div>
+<ul class=network-icon aria-hidden=true>
+<li>
+<a href=mailto:borrello@diag.uniroma1.it aria-label=envelope>
+<i class="fas fa-envelope big-icon"></i>
+</a>
+</li>
+<li>
+<a href=https://twitter.com/borrello_pietro target=_blank rel=noopener aria-label=twitter>
+<i class="fab fa-twitter big-icon"></i>
+</a>
+</li>
+<li>
+<a href="https://scholar.google.com/citations?user=DbrySh0AAAAJ" target=_blank rel=noopener aria-label=google-scholar>
+<i class="ai ai-google-scholar big-icon"></i>
+</a>
+</li>
+<li>
+<a href=https://github.com/pietroborrello target=_blank rel=noopener aria-label=github>
+<i class="fab fa-github big-icon"></i>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-12 col-lg-8">
+<h1>Biography</h1>
+<div class=article-style>
+<p>I am a PhD Student at the Sapienza University of Rome, working on Systems Security.
+My focus is applying Fuzzing and Program Analysis techniques to find and mitigate architectural and microarchitectural vulnerabilities.</p>
+<p>I am also a passionate CTF player focusing on exploitation and reverse-engineering with <a href=https://theromanxpl0it.github.io/ target=_blank rel=noopener>TRX</a> and <a href=https://mhackeroni.it/ target=_blank rel=noopener>mhackeroni</a> teams.</p>
+<p>Co-founder and current lead of the <a href=https://defcon11396.it/ target=_blank rel=noopener>DEFCON Group in Rome</a>.</p>
+</div>
+<div class=row>
+<div class=col-md-5>
+<div class=section-subheading>Interests</div>
+<ul class="ul-interests mb-0">
+<li>Systems Security</li>
+<li>Microarchitectural Attacks & Defenses</li>
+<li>Side-Channels</li>
+<li>Program Analysis</li>
+<li>Fuzzing</li>
+</ul>
+</div>
+<div class=col-md-7>
+<div class=section-subheading>Education</div>
+<ul class="ul-edu fa-ul mb-0">
+<li>
+<i class="fa-li fas fa-graduation-cap"></i>
+<div class=description>
+<p class=course>PhD in Engineering in Computer Science (current), 2023</p>
+<p class=institution>Sapienza University of Rome</p>
+</div>
+</li>
+<li>
+<i class="fa-li fas fa-graduation-cap"></i>
+<div class=description>
+<p class=course>MSc in Engineering in Computer Science, 2019</p>
+<p class=institution>Sapienza University of Rome</p>
+</div>
+</li>
+<li>
+<i class="fa-li fas fa-graduation-cap"></i>
+<div class=description>
+<p class=course>BSc in Engineering in Computer Science, 2017</p>
+<p class=institution>Sapienza University of Rome</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id=projects class="home-section wg-portfolio">
+<div class=home-section-bg>
+</div>
+<div class=container>
+<div class=row>
+<div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+<h1 class=mb-0>Projects</h1>
+</div>
+<div class="col-12 col-lg-8">
+<div class="row js-layout-row">
+<div class="col-12 isotope-item js-id-Side-Channels js-id-LLVM">
+<div class="media stream-item">
+<div class=media-body>
+<div class="section-subheading article-title mb-0 mt-0">
+<a href=https://github.com/pietroborrello/constantine target=_blank rel=noopener>Constantine</a>
+</div>
+<a href=https://github.com/pietroborrello/constantine target=_blank rel=noopener class=summary-link>
+<div class=article-style>
+A compiler-based system to automatically harden programs against microarchitectural side channels.
+</div>
+</a>
+<div class="stream-meta article-metadata">
+</div>
+<div class=btn-links>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://dl.acm.org/doi/abs/10.1145/3460120.3484583 target=_blank rel=noopener>
+PDF
+</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://github.com/pietroborrello/constantine target=_blank rel=noopener>
+Code
+</a>
+</div>
+</div>
+<div class=ml-3>
+<a href=https://github.com/pietroborrello/constantine target=_blank rel=noopener>
+<img src=/project/constantine/featured_hucf3ff6e7b5d436fe81f56df013b5bedc_89891_150x0_resize_lanczos_3.png alt=Constantine loading=lazy>
+</a>
+</div>
+</div>
+</div>
+<div class="col-12 isotope-item">
+<div class="media stream-item">
+<div class=media-body>
+<div class="section-subheading article-title mb-0 mt-0">
+<a href=https://github.com/pietroborrello/ghidra-atom-microcode target=_blank rel=noopener>Intel Atom Microcode Decompiler</a>
+</div>
+<a href=https://github.com/pietroborrello/ghidra-atom-microcode target=_blank rel=noopener class=summary-link>
+<div class=article-style>
+Ghidra Processor Module to disassemble and decompile x86 Intel Atom microcode.
+</div>
+</a>
+<div class="stream-meta article-metadata">
+</div>
+<div class=btn-links>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://github.com/pietroborrello/ghidra-atom-microcode target=_blank rel=noopener>
+Code
+</a>
+</div>
+</div>
+<div class=ml-3>
+<a href=https://github.com/pietroborrello/ghidra-atom-microcode target=_blank rel=noopener>
+<img src=/project/ucode/featured_hu8c52e3ae7fb460ca00f907d3ad86d6fc_183075_150x0_resize_lanczos_3.png alt="Intel Atom Microcode Decompiler" loading=lazy>
+</a>
+</div>
+</div>
+</div>
+<div class="col-12 isotope-item">
+<div class="media stream-item">
+<div class=media-body>
+<div class="section-subheading article-title mb-0 mt-0">
+<a href=https://github.com/pietroborrello/raindrop target=_blank rel=noopener>raindrop</a>
+</div>
+<a href=https://github.com/pietroborrello/raindrop target=_blank rel=noopener class=summary-link>
+<div class=article-style>
+A binary translator to transform program functions into obfuscated ROP chains.
+</div>
+</a>
+<div class="stream-meta article-metadata">
+</div>
+<div class=btn-links>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://ieeexplore.ieee.org/document/9505168 target=_blank rel=noopener>
+PDF
+</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://github.com/pietroborrello/raindrop target=_blank rel=noopener>
+Code
+</a>
+</div>
+</div>
+<div class=ml-3>
+<a href=https://github.com/pietroborrello/raindrop target=_blank rel=noopener>
+<img src=/project/raindrop/featured_hu75af31447269cb967076e0e3a79d24c4_146368_150x0_resize_lanczos_3.png alt=raindrop loading=lazy>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id=talks class="home-section wg-pages">
+<div class=home-section-bg>
+</div>
+<div class=container>
+<div class=row>
+<div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+<h1 class=mb-0>Talks</h1>
+</div>
+<div class="col-12 col-lg-8">
+<div class="media stream-item">
+<div class=media-body>
+<div class="section-subheading article-title mb-0 mt-0">
+<a href=/talk/the-lord-of-the-ring0/>The Lord of the Ring0</a>
+</div>
+<a href=/talk/the-lord-of-the-ring0/ class=summary-link>
+<div class=article-style>
+Exploiting the Linux Kernel for Privilege Escalation.
+</div>
+</a>
+<div class="stream-meta article-metadata">
+<div>
+<span>
+Dec 10, 2021 12:00 PM &mdash; 1:00 PM
+</span>
+<span class=middot-divider></span>
+<span>TU Graz Online Talk</span>
+</div>
+</div>
+<div class=btn-links>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=/talk/the-lord-of-the-ring0/graz_kern_expl.pdf target=_blank rel=noopener>
+PDF
+</a>
+</div>
+</div>
+<div class=ml-3>
+<a href=/talk/the-lord-of-the-ring0/>
+<img src=/talk/the-lord-of-the-ring0/featured_hua1143de1fe581935c17188068849bf31_424232_150x0_resize_q75_lanczos.jpg alt="The Lord of the Ring0" loading=lazy>
+</a>
+</div>
+</div>
+<div class="media stream-item">
+<div class=media-body>
+<div class="section-subheading article-title mb-0 mt-0">
+<a href=/talk/breaking-the-walls/>Breaking the walls</a>
+</div>
+<a href=/talk/breaking-the-walls/ class=summary-link>
+<div class=article-style>
+CPU introspection through micro-architectural data sampling.
+</div>
+</a>
+<div class="stream-meta article-metadata">
+<div>
+<span>
+Jan 31, 2020 5:00 PM &mdash; 6:00 PM
+</span>
+<span class=middot-divider></span>
+<span>DEFCON Group Meeting</span>
+</div>
+</div>
+<div class=btn-links>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=/talk/breaking-the-walls/dc_group_breaking_walls.pdf target=_blank rel=noopener>
+PDF
+</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://defcon11396.it/meetings/meeting-jan31/ target=_blank rel=noopener>
+Meeting</a>
+</div>
+</div>
+<div class=ml-3>
+<a href=/talk/breaking-the-walls/>
+<img src=/talk/breaking-the-walls/featured_hud0613af215660bda523bb3040959c21a_1008242_150x0_resize_q75_lanczos.jpg alt="Breaking the walls" loading=lazy>
+</a>
+</div>
+</div>
+<div class="media stream-item">
+<div class=media-body>
+<div class="section-subheading article-title mb-0 mt-0">
+<a href=/talk/transient-execution-attacks/>Transient Execution Attacks</a>
+</div>
+<a href=/talk/transient-execution-attacks/ class=summary-link>
+<div class=article-style>
+Deep dive into transient execution attacks.
+</div>
+</a>
+<div class="stream-meta article-metadata">
+<div>
+<span>
+May 31, 2019 4:00 PM &mdash; 6:00 PM
+</span>
+<span class=middot-divider></span>
+<span>DEFCON Group Meeting</span>
+</div>
+</div>
+<div class=btn-links>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=/talk/transient-execution-attacks/Transient_Execution_Attacks_explained_to_your_Grandma.pdf>
+PDF 1</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=/talk/transient-execution-attacks/Transient_Execution_Attacks_Episode_II.pdf>
+PDF 2</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://defcon11396.it/meetings/meeting-may31/ target=_blank rel=noopener>
+Meeting</a>
+</div>
+</div>
+<div class=ml-3>
+<a href=/talk/transient-execution-attacks/>
+<img src=/talk/transient-execution-attacks/featured_hu8caa192b40ab9c4d4e43d1c83b5c2615_304819_150x0_resize_q75_lanczos.jpg alt="Transient Execution Attacks" loading=lazy>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id=publications class="home-section wg-pages">
+<div class=home-section-bg>
+</div>
+<div class=container>
+<div class=row>
+<div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+<h1 class=mb-0>Publications</h1>
+</div>
+<div class="col-12 col-lg-8">
+<div class=pub-list-item style=margin-bottom:1rem>
+<i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<span class="article-metadata li-cite-author">
+<span class=author-highlighted>
+Pietro Borrello</span>, <span>
+D.C. D'Elia</span>, <span>
+L. Querzoni</span>, <span>
+C. Giuffrida</span>
+</span>
+(2021).
+<a href=/publication/ccs21/>Constantine: Automatic Side-Channel Resistance Using Efficient Control and Data Flow Linearization</a>.
+ACM CCS.
+<p>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=/publication/ccs21/ccs21.pdf target=_blank rel=noopener>
+PDF
+</a>
+<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/publication/ccs21/cite.bib>
+Cite
+</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://github.com/pietroborrello/constantine target=_blank rel=noopener>
+Code
+</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/https://dl.acm.org/doi/10.1145/3460120.3484583 target=_blank rel=noopener>
+DOI
+</a>
+</p>
+</div>
+<div class=pub-list-item style=margin-bottom:1rem>
+<i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<span class="article-metadata li-cite-author">
+<span>
+M. Schwarzl</span>, <span class=author-highlighted>
+Pietro Borrello</span>, <span>
+G. Saileshwar</span>, <span>
+H. Mueller</span>, <span>
+D. Gruss</span>, <span>
+M. Schwarz</span>
+</span>
+(2021).
+<a href=/publication/compression2021/>Practical Timing Side-Channel Attacks on Memory Compression</a>.
+arXiv.
+<p>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://arxiv.org/abs/2111.08404 target=_blank rel=noopener>
+PDF
+</a>
+<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/publication/compression2021/cite.bib>
+Cite
+</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/https://dl.acm.org/doi/10.1109/DSN48987.2021.00064 target=_blank rel=noopener>
+DOI
+</a>
+</p>
+</div>
+<div class=pub-list-item style=margin-bottom:1rem>
+<i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<span class="article-metadata li-cite-author">
+<span>
+M. Schwarzl</span>, <span class=author-highlighted>
+Pietro Borrello</span>, <span>
+A. Kogler</span>, <span>
+T. Schuster</span>, <span>
+K. Varda</span>, <span>
+D. Gruss</span>, <span>
+M. Schwarz</span>
+</span>
+(2021).
+<a href=/publication/cloudflare2021/>Robust and Scalable Process Isolation against Spectre in the Cloud</a>.
+arXiv.
+<p>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://arxiv.org/abs/2110.04751 target=_blank rel=noopener>
+PDF
+</a>
+<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/publication/cloudflare2021/cite.bib>
+Cite
+</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://blog.cloudflare.com/spectre-research-with-tu-graz/ target=_blank rel=noopener>
+Project
+</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/https://dl.acm.org/doi/10.1109/DSN48987.2021.00064 target=_blank rel=noopener>
+DOI
+</a>
+</p>
+</div>
+<div class=pub-list-item style=margin-bottom:1rem>
+<i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<span class="article-metadata li-cite-author">
+<span class=author-highlighted>
+Pietro Borrello</span>, <span>
+E. Coppa</span>, <span>
+D.C. D'Elia</span>
+</span>
+(2021).
+<a href=/publication/dsn21/>Hiding in the Particles: When Return-Oriented Programming Meets Program Obfuscation</a>.
+ACM DSN.
+<p>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://arxiv.org/abs/2012.06658 target=_blank rel=noopener>
+PDF
+</a>
+<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/publication/dsn21/cite.bib>
+Cite
+</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://github.com/pietroborrello/raindrop target=_blank rel=noopener>
+Code
+</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/https://dl.acm.org/doi/10.1109/DSN48987.2021.00064 target=_blank rel=noopener>
+DOI
+</a>
+</p>
+</div>
+<div class=pub-list-item style=margin-bottom:1rem>
+<i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<span class="article-metadata li-cite-author">
+<span class=author-highlighted>
+Pietro Borrello</span>, <span>
+E. Coppa</span>, <span>
+D.C. D'Elia</span>, <span>
+C. Demetrescu</span>
+</span>
+(2019).
+<a href=/publication/sac19/>The ROP needle: hiding trigger-based injection vectors via code reuse</a>.
+ACM SAC.
+<p>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=/publication/sac19/sac19.pdf target=_blank rel=noopener>
+PDF
+</a>
+<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/publication/sac19/cite.bib>
+Cite
+</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/https://dl.acm.org/doi/10.1145/3297280.3297472 target=_blank rel=noopener>
+DOI
+</a>
+</p>
+</div>
+<div class=pub-list-item style=margin-bottom:1rem>
+<i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<span class="article-metadata li-cite-author">
+<span class=author-highlighted>
+Pietro Borrello</span>, <span>
+E. Coppa</span>, <span>
+D.C. D'Elia</span>, <span>
+C. Demetrescu</span>
+</span>
+(2018).
+<a href=/publication/acsac18/>Boosting Virtualization Obfuscation with Return Oriented Programming</a>.
+Poster at ACM ACSAC.
+<p>
+</p>
+</div>
+<div class=pub-list-item style=margin-bottom:1rem>
+<i class="far fa-file-alt pub-icon" aria-hidden=true></i>
+<span class="article-metadata li-cite-author">
+<span>
+M. Angelini</span>, <span>
+G. Blasilli</span>, <span class=author-highlighted>
+Pietro Borrello</span>, <span>
+E. Coppa</span>, <span>
+D.C. D'Elia</span>, <span>
+S. Ferracci</span>, <span>
+S. Lenti</span>, <span>
+G. Santucci</span>
+</span>
+(2018).
+<a href=/publication/vizsec18/>Ropmate: Visually Assisting the Creation of ROP-Based Exploits</a>.
+IEEE VizSec.
+<p>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=/publication/vizsec18/vizsec18.pdf target=_blank rel=noopener>
+PDF
+</a>
+<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/publication/vizsec18/cite.bib>
+Cite
+</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://github.com/pietroborrello/RopMate target=_blank rel=noopener>
+Code
+</a>
+<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/https://doi.org/10.1109/VIZSEC.2018.8709204 target=_blank rel=noopener>
+DOI
+</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<div class=page-footer>
+<div class=container>
+<footer class=site-footer>
+<p class=powered-by>
+Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target=_blank rel=noopener>Wowchemy</a> — the free, <a href=https://github.com/wowchemy/wowchemy-hugo-themes target=_blank rel=noopener>open source</a> website builder that empowers creators.
+</p>
+</footer>
+</div>
+</div>
+<div id=modal class="modal fade" role=dialog>
+<div class=modal-dialog>
+<div class=modal-content>
+<div class=modal-header>
+<h5 class=modal-title>Cite</h5>
+<button type=button class=close data-dismiss=modal aria-label=Close>
+<span aria-hidden=true>&#215;</span>
+</button>
+</div>
+<div class=modal-body>
+<pre><code class="tex hljs"></code></pre>
+</div>
+<div class=modal-footer>
+<a class="btn btn-outline-primary my-1 js-copy-cite" href=# target=_blank>
+<i class="fas fa-copy"></i> Copy
+</a>
+<a class="btn btn-outline-primary my-1 js-download-cite" href=# target=_blank>
+<i class="fas fa-download"></i> Download
+</a>
+<div id=modal-error></div>
+</div>
+</div>
+</div>
+</div>
+<script src=/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js></script>
+<script src=https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js crossorigin=anonymous></script>
+<script id=search-hit-fuse-template type=text/x-template>
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+<script src=https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin=anonymous></script>
+<script src=/en/js/wowchemy.min.7cd6ec29d281a73c92a2958a1584aadc.js></script>
+</body>
+</html>
