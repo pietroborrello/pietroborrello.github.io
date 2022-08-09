@@ -9,8 +9,8 @@
 <link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media=print onload="this.media='all'">
 <meta name=google-site-verification content="NK8osMpeWh0hawCE32XjgywY0II2-CPbVafkGVJBQwo">
 <meta name=author content="Pietro Borrello">
-<meta name=description content="Pietro Borrello. PhD Student focusing on Program Analysis and Fuzzing for architectural and microarchitectural vulnerabilities.">
-<link rel=alternate hreflang=en-us href=https://pietroborrello.github.io/project/>
+<meta name=description content="Click the Cite button above to demo the feature to enable visitors to import publication metadata into their reference management software.    Create your slides in Markdown - click the Slides button to check out the example.">
+<link rel=alternate hreflang=en-us href=https://pietroborrello.github.io/publication/usenix22/>
 <meta name=theme-color content="rgb(0, 136, 204)">
 <link rel=stylesheet href=/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css media=print onload="this.media='all'">
 <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin=anonymous media=print onload="this.media='all'">
@@ -19,23 +19,24 @@
 <link rel=stylesheet href=/css/wowchemy.fffb4117e354b1f0a10ae0f356beef91.css>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-4JVG4J2F32"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}function trackOutboundLink(a,b){gtag('event','click',{event_category:'outbound',event_label:a,transport_type:'beacon',event_callback:function(){b!=='_blank'&&(document.location=a)}}),console.debug("Outbound link clicked: "+a)}function onClickCallback(a){if(a.target.tagName!=='A'||a.target.host===window.location.host)return;trackOutboundLink(a.target,a.target.getAttribute('target'))}gtag('js',new Date),gtag('config','G-4JVG4J2F32',{}),gtag('set',{cookie_flags:'SameSite=None;Secure'}),document.addEventListener('click',onClickCallback,!1)</script>
-<link rel=alternate href=/project/index.xml type=application/rss+xml title="Pietro Borrello">
 <link rel=manifest href=/manifest.webmanifest>
 <link rel=icon type=image/png href=/media/icon_hu78d405b8dcc1dde0d74e011fa0cd641f_27924_32x32_fill_lanczos_center_3.png>
 <link rel=apple-touch-icon type=image/png href=/media/icon_hu78d405b8dcc1dde0d74e011fa0cd641f_27924_180x180_fill_lanczos_center_3.png>
-<link rel=canonical href=https://pietroborrello.github.io/project/>
+<link rel=canonical href=https://pietroborrello.github.io/publication/usenix22/>
 <meta property="twitter:card" content="summary">
 <meta property="twitter:site" content="@borrello_pietro">
 <meta property="twitter:creator" content="@borrello_pietro">
 <meta property="og:site_name" content="Pietro Borrello">
-<meta property="og:url" content="https://pietroborrello.github.io/project/">
-<meta property="og:title" content="Projects | Pietro Borrello">
-<meta property="og:description" content="Pietro Borrello. PhD Student focusing on Program Analysis and Fuzzing for architectural and microarchitectural vulnerabilities."><meta property="og:image" content="https://pietroborrello.github.io/media/icon_hu78d405b8dcc1dde0d74e011fa0cd641f_27924_512x512_fill_lanczos_center_3.png">
+<meta property="og:url" content="https://pietroborrello.github.io/publication/usenix22/">
+<meta property="og:title" content="ÆPIC Leak: Architecturally Leaking Uninitialized Data from the Microarchitecture | Pietro Borrello">
+<meta property="og:description" content="Click the Cite button above to demo the feature to enable visitors to import publication metadata into their reference management software.    Create your slides in Markdown - click the Slides button to check out the example."><meta property="og:image" content="https://pietroborrello.github.io/media/icon_hu78d405b8dcc1dde0d74e011fa0cd641f_27924_512x512_fill_lanczos_center_3.png">
 <meta property="twitter:image" content="https://pietroborrello.github.io/media/icon_hu78d405b8dcc1dde0d74e011fa0cd641f_27924_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
-<meta property="og:updated_time" content="2022-08-09T00:00:00+00:00">
-<title>Projects | Pietro Borrello</title>
+<meta property="article:published_time" content="2017-01-01T00:00:00+00:00">
+<meta property="article:modified_time" content="2022-08-09T00:00:00+00:00">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://pietroborrello.github.io/publication/usenix22/"},"headline":"ÆPIC Leak: Architecturally Leaking Uninitialized Data from the Microarchitecture","datePublished":"2017-01-01T00:00:00Z","dateModified":"2022-08-09T00:00:00Z","author":{"@type":"Person","name":"Pietro Borrello"},"publisher":{"@type":"Organization","name":"Pietro Borrello","logo":{"@type":"ImageObject","url":"https://pietroborrello.github.io/media/icon_hu78d405b8dcc1dde0d74e011fa0cd641f_27924_192x192_fill_lanczos_center_3.png"}},"description":"Click the Cite button above to demo the feature to enable visitors to import publication metadata into their reference management software.    Create your slides in Markdown - click the Slides button to check out the example."}</script>
+<title>ÆPIC Leak: Architecturally Leaking Uninitialized Data from the Microarchitecture | Pietro Borrello</title>
 </head>
-<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class="page-wrapper dark">
+<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class="page-wrapper dark" data-wc-page-id=826f6c4c6d7c6864d55f4c012bd6fc29>
 <script src=/js/wowchemy-init.min.7a32c4644e301688b5ef47ea5ccbdaf7.js></script>
 <aside class=search-modal id=search>
 <div class=container>
@@ -95,113 +96,125 @@
 </nav>
 </div>
 <div class=page-body>
-<div class="universal-wrapper pt-3">
-<h1>Projects</h1>
+<div class=pub>
+<div class="article-container pt-3">
+<h1>ÆPIC Leak: Architecturally Leaking Uninitialized Data from the Microarchitecture</h1>
+<div class=article-metadata>
+<div>
+<span class=author-highlighted>
+Pietro Borrello</span>, <span>
+Andreas Kogler</span>, <span>
+Martin Schwarzl</span>, <span>
+Moritz Lipp</span>, <span>
+Daniel Gruss</span>, <span>
+Michael Schwarz</span>
 </div>
-<div class=universal-wrapper>
-<div class="media stream-item">
-<div class=media-body>
-<div class="section-subheading article-title mb-0 mt-0">
-<a href=https://aepicleak.com target=_blank rel=noopener>ÆPIC Leak</a>
+<span class=article-date>
+August 2022
+</span>
 </div>
-<a href=https://aepicleak.com target=_blank rel=noopener class=summary-link>
-<div class=article-style>
-Architecturally Leaking Uninitialized Data from the Microarchitecture.
-</div>
+<div class="btn-links mb-3">
+<a href=# class="btn btn-outline-primary btn-page-header js-cite-modal" data-filename=/publication/usenix22/cite.bib>
+Cite
 </a>
-<div class="stream-meta article-metadata">
-</div>
-<div class=btn-links>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://www.aepicleak.com/aepicleak.pdf target=_blank rel=noopener>
-PDF
-</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://github.com/IAIK/AEPIC target=_blank rel=noopener>
+<a class="btn btn-outline-primary btn-page-header" href=https://github.com/IAIK/AEPIC target=_blank rel=noopener>
 Code
 </a>
 </div>
 </div>
-<div class=ml-3>
-<a href=https://aepicleak.com target=_blank rel=noopener>
-<img src=/project/aepicleak/featured_hu372c66ac229126c7bff39230686a5544_60304_150x0_resize_lanczos_3.png alt="ÆPIC Leak" loading=lazy>
+<div class=article-container>
+<div class=row>
+<div class=col-md-1></div>
+<div class=col-md-10>
+<div class=row>
+<div class="col-12 col-md-3 pub-row-heading">Type</div>
+<div class="col-12 col-md-9">
+<a href=/publication/#1>
+Conference paper
 </a>
 </div>
 </div>
-<div class="media stream-item">
-<div class=media-body>
-<div class="section-subheading article-title mb-0 mt-0">
-<a href=https://github.com/pietroborrello/constantine target=_blank rel=noopener>Constantine</a>
 </div>
-<a href=https://github.com/pietroborrello/constantine target=_blank rel=noopener class=summary-link>
+<div class=col-md-1></div>
+</div>
+<div class="d-md-none space-below"></div>
+<div class=row>
+<div class=col-md-1></div>
+<div class=col-md-10>
+<div class=row>
+<div class="col-12 col-md-3 pub-row-heading">Publication</div>
+<div class="col-12 col-md-9">USENIX SECURITY</div>
+</div>
+</div>
+<div class=col-md-1></div>
+</div>
+<div class="d-md-none space-below"></div>
+<div class=space-below></div>
 <div class=article-style>
-A compiler-based system to automatically harden programs against microarchitectural side channels.
 </div>
+<div class=share-box>
+<ul class=share>
+<li>
+<a href="https://twitter.com/intent/tweet?url=https://pietroborrello.github.io/publication/usenix22/&text=%c3%86PIC%20Leak:%20Architecturally%20Leaking%20Uninitialized%20Data%20from%20the%20Microarchitecture" target=_blank rel=noopener class=share-btn-twitter aria-label=twitter>
+<i class="fab fa-twitter"></i>
 </a>
-<div class="stream-meta article-metadata">
-</div>
-<div class=btn-links>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://dl.acm.org/doi/abs/10.1145/3460120.3484583 target=_blank rel=noopener>
-PDF
+</li>
+<li>
+<a href="https://www.facebook.com/sharer.php?u=https://pietroborrello.github.io/publication/usenix22/&t=%c3%86PIC%20Leak:%20Architecturally%20Leaking%20Uninitialized%20Data%20from%20the%20Microarchitecture" target=_blank rel=noopener class=share-btn-facebook aria-label=facebook>
+<i class="fab fa-facebook"></i>
 </a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://github.com/pietroborrello/constantine target=_blank rel=noopener>
-Code
+</li>
+<li>
+<a href="mailto:?subject=%c3%86PIC%20Leak:%20Architecturally%20Leaking%20Uninitialized%20Data%20from%20the%20Microarchitecture&body=https://pietroborrello.github.io/publication/usenix22/" target=_blank rel=noopener class=share-btn-email aria-label=envelope>
+<i class="fas fa-envelope"></i>
 </a>
-</div>
-</div>
-<div class=ml-3>
-<a href=https://github.com/pietroborrello/constantine target=_blank rel=noopener>
-<img src=/project/constantine/featured_hucf3ff6e7b5d436fe81f56df013b5bedc_89891_150x0_resize_lanczos_3.png alt=Constantine loading=lazy>
+</li>
+<li>
+<a href="https://www.linkedin.com/shareArticle?url=https://pietroborrello.github.io/publication/usenix22/&title=%c3%86PIC%20Leak:%20Architecturally%20Leaking%20Uninitialized%20Data%20from%20the%20Microarchitecture" target=_blank rel=noopener class=share-btn-linkedin aria-label=linkedin-in>
+<i class="fab fa-linkedin-in"></i>
 </a>
+</li>
+<li>
+<a href="whatsapp://send?text=%c3%86PIC%20Leak:%20Architecturally%20Leaking%20Uninitialized%20Data%20from%20the%20Microarchitecture%20https://pietroborrello.github.io/publication/usenix22/" target=_blank rel=noopener class=share-btn-whatsapp aria-label=whatsapp>
+<i class="fab fa-whatsapp"></i>
+</a>
+</li>
+<li>
+<a href="https://service.weibo.com/share/share.php?url=https://pietroborrello.github.io/publication/usenix22/&title=%c3%86PIC%20Leak:%20Architecturally%20Leaking%20Uninitialized%20Data%20from%20the%20Microarchitecture" target=_blank rel=noopener class=share-btn-weibo aria-label=weibo>
+<i class="fab fa-weibo"></i>
+</a>
+</li>
+</ul>
 </div>
-</div>
-<div class="media stream-item">
+<div class="media author-card content-widget-hr">
+<a href=https://pietroborrello.github.io/><img class="avatar mr-3 avatar-circle" src=/authors/admin/avatar_hu2ce8d94387458ae84c8254a7e7836386_199794_270x270_fill_q75_lanczos_center.jpg alt="Pietro Borrello"></a>
 <div class=media-body>
-<div class="section-subheading article-title mb-0 mt-0">
-<a href=https://github.com/pietroborrello/ghidra-atom-microcode target=_blank rel=noopener>Intel Atom Microcode Decompiler</a>
-</div>
-<a href=https://github.com/pietroborrello/ghidra-atom-microcode target=_blank rel=noopener class=summary-link>
-<div class=article-style>
-Ghidra Processor Module to disassemble and decompile x86 Intel Atom microcode.
-</div>
+<h5 class=card-title><a href=https://pietroborrello.github.io/>Pietro Borrello</a></h5>
+<h6 class=card-subtitle>Ph.D. Student in Systems Security</h6>
+<p class=card-text>Program Analysis and Fuzzing for architectural and microarchitectural vulnerabilities.</p>
+<ul class=network-icon aria-hidden=true>
+<li>
+<a href=mailto:borrello@diag.uniroma1.it>
+<i class="fas fa-envelope"></i>
 </a>
-<div class="stream-meta article-metadata">
-</div>
-<div class=btn-links>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://github.com/pietroborrello/ghidra-atom-microcode target=_blank rel=noopener>
-Code
+</li>
+<li>
+<a href=https://twitter.com/borrello_pietro target=_blank rel=noopener>
+<i class="fab fa-twitter"></i>
 </a>
-</div>
-</div>
-<div class=ml-3>
-<a href=https://github.com/pietroborrello/ghidra-atom-microcode target=_blank rel=noopener>
-<img src=/project/ucode/featured_hu8c52e3ae7fb460ca00f907d3ad86d6fc_183075_150x0_resize_lanczos_3.png alt="Intel Atom Microcode Decompiler" loading=lazy>
+</li>
+<li>
+<a href="https://scholar.google.com/citations?user=DbrySh0AAAAJ" target=_blank rel=noopener>
+<i class="ai ai-google-scholar"></i>
 </a>
-</div>
-</div>
-<div class="media stream-item">
-<div class=media-body>
-<div class="section-subheading article-title mb-0 mt-0">
-<a href=https://github.com/pietroborrello/raindrop target=_blank rel=noopener>raindrop</a>
-</div>
-<a href=https://github.com/pietroborrello/raindrop target=_blank rel=noopener class=summary-link>
-<div class=article-style>
-A binary translator to transform program functions into obfuscated ROP chains.
-</div>
+</li>
+<li>
+<a href=https://github.com/pietroborrello target=_blank rel=noopener>
+<i class="fab fa-github"></i>
 </a>
-<div class="stream-meta article-metadata">
+</li>
+</ul>
 </div>
-<div class=btn-links>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://ieeexplore.ieee.org/document/9505168 target=_blank rel=noopener>
-PDF
-</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://github.com/pietroborrello/raindrop target=_blank rel=noopener>
-Code
-</a>
-</div>
-</div>
-<div class=ml-3>
-<a href=https://github.com/pietroborrello/raindrop target=_blank rel=noopener>
-<img src=/project/raindrop/featured_hu75af31447269cb967076e0e3a79d24c4_146368_150x0_resize_lanczos_3.png alt=raindrop loading=lazy>
-</a>
 </div>
 </div>
 </div>
